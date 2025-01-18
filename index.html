@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+
+    <body>
+    <h2>Simple Math Function in the Array </h2>
+    <p id="demo"></p>
+
+        <script>
+            var numbers=[10, 20, 30, 40]
+ 
+            function myFunction(num) {
+                return num + 10
+            }
+            var newarray = numbers.map(myFunction);
+            document.getElementById("demo").innerHTML=newarray
+
+        </script>
+    </body>
+</html>
